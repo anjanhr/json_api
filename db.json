@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Pankaj",
+      "salary": "10000"
+    },
+    {
+      "name": "David",
+      "salary": "5000",
+      "id": 2
+    }
+  ],
+  "colleges": [
+    {
+      "id": "1",
+      "name": "BIHE",
+      "city": "Davangere",
+      "university": "DVG"
+    },
+    {
+      "id": "2",
+      "name": "BIET",
+      "city": "Davangere",
+      "university": "VTU"
+    }
+  ]
+}
