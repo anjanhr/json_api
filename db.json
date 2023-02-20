@@ -1,39 +1,324 @@
 {
-  "employees": [
+  "employees_vertices": [
     {
-      "id": 1,
-      "name": "Pankaj",
-      "salary": "10000"
+      "mmType": "",
+      "gid": "T_Employees",
+      "visible": "",
+      "column": "",
+      "id": "T_Employees",
+      "label": "object",
+      "row": "",
+      "title": "Employees",
+      "required": ""
     },
     {
-      "name": "David",
-      "salary": "5000",
-      "id": 2
+      "mmType": "String",
+      "gid": "T_Employees|EmployeeID",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|EmployeeID",
+      "label": "integer",
+      "row": "1",
+      "title": "Employee ID",
+      "name": "emp_id",
+      "required": "N"
     },
     {
-      "name": "John",
-      "salary": "6000",
-      "id": 3
-    }
-  ],
-  "colleges": [
-    {
-      "id": "1",
-      "name": "BIHE",
-      "city": "Davangere",
-      "university": "DVG"
+      "mmType": "String",
+      "gid": "T_Employees|EmployeeType",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|EmployeeType",
+      "label": "string",
+      "row": "2",
+      "title": "Employee Type",
+      "name": "emp_type",
+      "collection": [
+        "Select Here",
+        "Employee",
+        "Intern",
+        "Consultant",
+        "Director"
+      ],
+      "required": "N"
     },
     {
-      "id": "2",
-      "name": "BIET",
-      "city": "Davangere",
-      "university": "VTU"
+      "mmType": "String",
+      "gid": "T_Employees|FirstName",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|FirstName",
+      "label": "string",
+      "row": "3",
+      "title": "First Name",
+      "name": "emp_first_name",
+      "required": "Y"
     },
     {
-      "id": "3",
-      "name": "UBDT",
-      "city": "Davangere",
-      "university": "DVG"
+      "mmType": "String",
+      "gid": "T_Employees|LastName",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|LastName",
+      "label": "string",
+      "row": "4",
+      "title": "Last Name",
+      "name": "emp_last_name",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|FatherName",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|FatherName",
+      "label": "string",
+      "row": "5",
+      "title": "Father Name",
+      "name": "emp_father_name",
+      "required": "Y"
+    },
+    {
+      "mmType": "Date",
+      "gid": "T_Employees|DOB",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|DOB",
+      "label": "string",
+      "row": "6",
+      "title": "DOB",
+      "name": "emp_dob",
+      "required": "Y"
+    },
+    {
+      "mmType": "Email",
+      "gid": "T_Employees|Email",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|Email",
+      "label": "string",
+      "row": "7",
+      "title": "Email",
+      "name": "emp_email",
+      "required": "Y"
+    },
+    {
+      "mmType": "Phone",
+      "gid": "T_Employees|ContactNo",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|ContactNo",
+      "label": "integer",
+      "row": "8",
+      "title": "Contact No",
+      "name": "emp_contact_no",
+      "required": "Y"
+    },
+    {
+      "mmType": "Phone",
+      "gid": "T_Employees|EmrContactNo",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|EmrContactNo",
+      "label": "integer",
+      "row": "9",
+      "title": "Emr Contact No",
+      "name": "emp_emrcy_no",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|ESICNo",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|ESICNo",
+      "label": "integer",
+      "row": "10",
+      "title": "ESIC No",
+      "name": "emp_esic_no",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|Role/Designation",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|Role/Designation",
+      "label": "string",
+      "row": "11",
+      "title": "Roles/Designation",
+      "name": "emp_role",
+      "collection": [
+        "Select Here",
+        "Manager",
+        "Data Sceintist",
+        "Intern",
+        "Junior Data Scientist",
+        "Junior Software Engineer",
+        "Project Engineer",
+        "Senior Consultant",
+        "Senior Sotware Engineer",
+        "Software engineer Trainee"
+      ],
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|TechnicalManager",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|TechnicalManager",
+      "label": "string",
+      "row": "12",
+      "title": "Technical Manager",
+      "name": "emp_tech_manager",
+      "collection": ["Select Here"],
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|AddressLine1",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Employees|AddressLine1",
+      "label": "string",
+      "row": "1",
+      "title": "Address Line 1",
+      "name": "emp_add_line_1",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|AddressLine2",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Employees|AddressLine2",
+      "label": "string",
+      "row": "2",
+      "title": "Address Line 2",
+      "name": "emp_add_line_2",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|AddressLine3",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Employees|AddressLine3",
+      "label": "string",
+      "row": "3",
+      "title": "Address Line 3",
+      "name": "emp_add_line_3",
+      "required": "N"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|PinCode",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Employees|PinCode",
+      "label": "integer",
+      "row": "4",
+      "title": "Pin Code",
+      "name": "emp_pin_code",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|PanNo",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Employees|PanNo",
+      "label": "integer",
+      "row": "5",
+      "title": "Pan No",
+      "name": "emp_pan_no",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|AadharNo",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Employees|AadharNo",
+      "label": "integer",
+      "row": "6",
+      "title": "Aadhar No",
+      "name": "emp_aadhar_no",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|EPF/UANNo",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Employees|EPF/UANNo",
+      "label": "integer",
+      "row": "7",
+      "title": "EPF/UAN No",
+      "name": "emp_uan_no",
+      "required": "N"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|IFSCCode",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Employees|IFSCCode",
+      "label": "integer",
+      "row": "8",
+      "title": "IFSC Code",
+      "name": "emp_ifsc_code",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|AccountNo",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Employees|AccountNo",
+      "label": "integer",
+      "row": "9",
+      "title": "Acc No",
+      "name": "emp_acc_no",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|MEDICLAIMNo",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Employees|MEDICLAIMNo",
+      "label": "integer",
+      "row": "10",
+      "title": "MEDICLAIM No",
+      "name": "emp_mediclaim_no",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|HRManager",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Employees|HRManager",
+      "label": "string",
+      "row": "11",
+      "title": "HR Manager",
+      "name": "emp_hr_manager",
+      "collection": ["Select Here"],
+      "required": "Y"
+    },
+    {
+      "mmType": "Date",
+      "gid": "T_Employees|JoinDate",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Employees|JoinDate",
+      "label": "string",
+      "row": "12",
+      "title": "Join Date",
+      "name": "emp_join_date",
+      "required": "Y"
     }
   ]
 }
