@@ -9,6 +9,11 @@
       "name": "David",
       "salary": "5000",
       "id": 2
+    },
+    {
+      "name": "John",
+      "salary": "6000",
+      "id": 3
     }
   ],
   "colleges": [
@@ -23,6 +28,12 @@
       "name": "BIET",
       "city": "Davangere",
       "university": "VTU"
+    },
+    {
+      "id": "3",
+      "name": "UBDT",
+      "city": "Davangere",
+      "university": "DVG"
     }
   ]
 }
