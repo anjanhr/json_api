@@ -285,14 +285,14 @@
     },
     {
       "mmType": "String",
-      "gid": "T_Employees|MEDICLAIMNo",
+      "gid": "T_Employees|MEDCLAIMNo",
       "visible": "Y",
       "column": "2",
-      "id": "T_Employees|MEDICLAIMNo",
+      "id": "T_Employees|MEDCLAIMNo",
       "label": "integer",
       "row": "10",
-      "title": "MEDICLAIM No",
-      "name": "emp_mediclaim_no",
+      "title": "MEDCLAIM No",
+      "name": "emp_medclaim_no",
       "required": "Y"
     },
     {
