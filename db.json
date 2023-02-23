@@ -321,7 +321,7 @@
       "required": "Y"
     }
   ],
-  "appliers_vertices": [
+  "candidates_vertices": [
     {
       "mmType": "",
       "gid": "T_Employees",
