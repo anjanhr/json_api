@@ -320,5 +320,133 @@
       "name": "emp_join_date",
       "required": "Y"
     }
+  ],
+  "appliers_vertices": [
+    {
+      "mmType": "",
+      "gid": "T_Employees",
+      "visible": "",
+      "column": "",
+      "id": "T_Employees",
+      "label": "object",
+      "row": "",
+      "title": "Employees",
+      "required": ""
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|EmployeeID",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|EmployeeID",
+      "label": "integer",
+      "row": "1",
+      "title": "Employee ID",
+      "name": "emp_id",
+      "required": "N"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|EmployeeType",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|EmployeeType",
+      "label": "string",
+      "row": "2",
+      "title": "Employee Type",
+      "name": "emp_type",
+      "collection": [
+        "Select Here",
+        "Employee",
+        "Intern",
+        "Consultant",
+        "Director"
+      ],
+      "required": "N"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|FirstName",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|FirstName",
+      "label": "string",
+      "row": "3",
+      "title": "First Name",
+      "name": "emp_first_name",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|LastName",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|LastName",
+      "label": "string",
+      "row": "4",
+      "title": "Last Name",
+      "name": "emp_last_name",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Employees|FatherName",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|FatherName",
+      "label": "string",
+      "row": "5",
+      "title": "Father Name",
+      "name": "emp_father_name",
+      "required": "Y"
+    },
+    {
+      "mmType": "Date",
+      "gid": "T_Employees|DOB",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|DOB",
+      "label": "string",
+      "row": "6",
+      "title": "DOB",
+      "name": "emp_dob",
+      "required": "Y"
+    },
+    {
+      "mmType": "Email",
+      "gid": "T_Employees|Email",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|Email",
+      "label": "string",
+      "row": "7",
+      "title": "Email",
+      "name": "emp_email",
+      "required": "Y"
+    },
+    {
+      "mmType": "Phone",
+      "gid": "T_Employees|ContactNo",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|ContactNo",
+      "label": "integer",
+      "row": "8",
+      "title": "Contact No",
+      "name": "emp_contact_no",
+      "required": "Y"
+    },
+    {
+      "mmType": "Phone",
+      "gid": "T_Employees|EmrContactNo",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Employees|EmrContactNo",
+      "label": "integer",
+      "row": "9",
+      "title": "Emr Contact No",
+      "name": "emp_emrcy_no",
+      "required": "Y"
+    }
   ]
 }
