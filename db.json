@@ -454,25 +454,13 @@
       "required": "Y"
     },
     {
-      "mmType": "File",
-      "gid": "T_Candidates|Resume/CV",
-      "visible": "Y",
-      "column": "2",
-      "id": "T_Candidates|Resume/CV",
-      "label": "file",
-      "row": "3",
-      "title": "Resume/CV",
-      "name": "can_cv",
-      "required": "Y"
-    },
-    {
       "mmType": "Date",
       "gid": "T_Candidates|CVReceieveOn",
       "visible": "Y",
       "column": "2",
       "id": "T_Candidates|CVReceieveOn",
       "label": "string",
-      "row": "4",
+      "row": "3",
       "title": "CV Receieve On",
       "name": "can_cv_rec_on",
       "required": "Y"
@@ -484,7 +472,7 @@
       "column": "2",
       "id": "T_Candidates|Remarks",
       "label": "string",
-      "row": "5",
+      "row": "4",
       "title": "Remarks",
       "name": "can_remark",
       "required": "N"
@@ -496,7 +484,7 @@
       "column": "2",
       "id": "T_Candidates|SchedInterview",
       "label": "string",
-      "row": "6",
+      "row": "5",
       "title": "Sched Interview",
       "name": "can_sched_interview",
       "required": "Y"
