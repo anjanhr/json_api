@@ -585,7 +585,7 @@
       "row": "2",
       "title": "IsSelected",
       "name": "Is Selected",
-      "option": ["YES", "NO"],
+      "collection": ["YES", "NO"],
       "required": "Y"
     },
     {
