@@ -343,7 +343,7 @@
       "row": "1",
       "title": "Candidate ID",
       "name": "can_id",
-      "required": "N"
+      "required": "Y"
     },
     {
       "mmType": "String",
@@ -367,7 +367,7 @@
       "row": "3",
       "title": "Last Name",
       "name": "can_last_name",
-      "required": "Y"
+      "required": "N"
     },
     {
       "mmType": "Date",
@@ -379,7 +379,7 @@
       "row": "4",
       "title": "DOB",
       "name": "can_dob",
-      "required": "Y"
+      "required": "N"
     },
     {
       "mmType": "Email",
@@ -415,7 +415,7 @@
       "row": "7",
       "title": "Skill Sets",
       "name": "can_skill_set",
-      "required": "Y"
+      "required": "N"
     },
     {
       "mmType": "String",
@@ -439,7 +439,19 @@
       "row": "1",
       "title": "Qualification",
       "name": "can_qualification",
-      "required": "Y"
+      "required": "N"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Candidates|Percentage",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Candidates|Percentage",
+      "label": "string",
+      "row": "2",
+      "title": "Percentage",
+      "name": "can_percentage",
+      "required": "N"
     },
     {
       "mmType": "String",
@@ -448,10 +460,10 @@
       "column": "2",
       "id": "T_Candidates|Address",
       "label": "string",
-      "row": "2",
+      "row": "3",
       "title": "Address",
       "name": "can_address",
-      "required": "Y"
+      "required": "N"
     },
     {
       "mmType": "Date",
@@ -460,10 +472,10 @@
       "column": "2",
       "id": "T_Candidates|CVReceieveOn",
       "label": "string",
-      "row": "3",
+      "row": "4",
       "title": "CV Receieve On",
       "name": "can_cv_rec_on",
-      "required": "Y"
+      "required": "N"
     },
     {
       "mmType": "String",
@@ -472,7 +484,7 @@
       "column": "2",
       "id": "T_Candidates|Remarks",
       "label": "string",
-      "row": "4",
+      "row": "5",
       "title": "Remarks",
       "name": "can_remark",
       "required": "N"
@@ -484,10 +496,10 @@
       "column": "2",
       "id": "T_Candidates|SchedInterview",
       "label": "string",
-      "row": "5",
+      "row": "6",
       "title": "Sched Interview",
       "name": "can_sched_interview",
-      "required": "Y"
+      "required": "N"
     }
   ]
 }
