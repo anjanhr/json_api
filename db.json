@@ -563,7 +563,7 @@
       "required": "Y"
     },
     {
-      "mmType": "checkbox",
+      "mmType": "String",
       "gid": "T_Candidates|Interviewer",
       "visible": "Y",
       "column": "2",
@@ -584,6 +584,7 @@
       "row": "2",
       "title": "IsSelected",
       "name": "Is Selected",
+      "collection": ["YES", "NO"],
       "required": "Y"
     },
     {
