@@ -501,5 +501,102 @@
       "name": "can_sched_interview",
       "required": "N"
     }
+  ],
+  "schedule_vertices": [
+    {
+      "mmType": "",
+      "gid": "T_schedule",
+      "visible": "",
+      "column": "",
+      "id": "T_schedule",
+      "label": "object",
+      "row": "",
+      "title": "Schedule",
+      "required": ""
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Candidates|InterRound",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Candidates|InterRound",
+      "label": "integer",
+      "row": "1",
+      "title": "Inter Round",
+      "name": "inter_round",
+      "required": "Y"
+    },
+    {
+      "mmType": "Date",
+      "gid": "T_Candidates|Date",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Candidates|Date",
+      "label": "string",
+      "row": "2",
+      "title": "Date",
+      "name": "date",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Candidates|Time",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Candidates|Time",
+      "label": "string",
+      "row": "3",
+      "title": "Time",
+      "name": "time",
+      "required": "Y"
+    },
+    {
+      "mmType": "Phone",
+      "gid": "T_Candidates|ScheduledBy",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Candidates|ScheduledBy",
+      "label": "integer",
+      "row": "4",
+      "title": "Scheduled By",
+      "name": "scheduled_by",
+      "required": "Y"
+    },
+    {
+      "mmType": "checkbox",
+      "gid": "T_Candidates|Interviewer",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Candidates|Interviewer",
+      "label": "string",
+      "row": "1",
+      "title": "Interviewer",
+      "name": "interviewer",
+      "required": "Y"
+    },
+    {
+      "mmType": "radio",
+      "gid": "T_Candidates|IsSelected",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Candidates|IsSelected",
+      "label": "string",
+      "row": "2",
+      "title": "IsSelected",
+      "name": "Is Selected",
+      "required": "Y"
+    },
+    {
+      "mmType": "File",
+      "gid": "T_Candidates|Resume",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Candidates|Resume",
+      "label": "string",
+      "row": "3",
+      "title": "Resume",
+      "name": "resume",
+      "required": "N"
+    }
   ]
 }
