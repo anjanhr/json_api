@@ -466,6 +466,18 @@
       "required": "N"
     },
     {
+      "mmType": "File",
+      "gid": "T_Candidates|Resume/CV",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Candidates|Resume/CV",
+      "label": "string",
+      "row": "4",
+      "title": "Resume/CV",
+      "name": "can_resume",
+      "required": "Y"
+    },
+    {
       "mmType": "Date",
       "gid": "T_Candidates|CVReceieveOn",
       "visible": "Y",
