@@ -484,21 +484,9 @@
       "column": "2",
       "id": "T_Candidates|CVReceieveOn",
       "label": "string",
-      "row": "4",
+      "row": "5",
       "title": "CV Receieve On",
       "name": "can_cv_rec_on",
-      "required": "N"
-    },
-    {
-      "mmType": "String",
-      "gid": "T_Candidates|Remarks",
-      "visible": "Y",
-      "column": "2",
-      "id": "T_Candidates|Remarks",
-      "label": "string",
-      "row": "5",
-      "title": "Remarks",
-      "name": "can_remark",
       "required": "N"
     },
     {
@@ -511,6 +499,32 @@
       "row": "6",
       "title": "Sched Interview",
       "name": "can_sched_interview",
+      "required": "N"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Candidates|EmpRefree",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Candidates|EmpRefree",
+      "label": "string",
+      "row": "7",
+      "title": "Employee Refree",
+      "collection": ["Select"],
+      "name": "can_emp_refree",
+      "required": "N"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Candidates|Vendor",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Candidates|Vendor",
+      "label": "string",
+      "row": "8",
+      "title": "Supplied Vendor",
+      "collection": ["Select"],
+      "name": "can_supp_vendor",
       "required": "N"
     }
   ],
