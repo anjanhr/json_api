@@ -600,31 +600,6 @@
       "collection": ["Select"],
       "name": "interviewer",
       "required": "Y"
-    },
-    {
-      "mmType": "radio",
-      "gid": "T_Candidates|IsSelected",
-      "visible": "Y",
-      "column": "2",
-      "id": "T_Candidates|IsSelected",
-      "label": "string",
-      "row": "2",
-      "title": "IsSelected",
-      "name": "Is Selected",
-      "collection": ["YES", "NO"],
-      "required": "Y"
-    },
-    {
-      "mmType": "File",
-      "gid": "T_Candidates|Resume",
-      "visible": "Y",
-      "column": "2",
-      "id": "T_Candidates|Resume",
-      "label": "string",
-      "row": "3",
-      "title": "Resume",
-      "name": "resume",
-      "required": "N"
     }
   ]
 }
