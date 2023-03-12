@@ -601,5 +601,151 @@
       "name": "interviewer",
       "required": "Y"
     }
+  ],
+  "referee_vertices": [
+    {
+      "mmType": "",
+      "gid": "T_Referee",
+      "visible": "",
+      "column": "",
+      "id": "T_Referee",
+      "label": "object",
+      "row": "",
+      "title": "Referees",
+      "required": ""
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Referee|RefereeID",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Referee|RefereeID",
+      "label": "integer",
+      "row": "1",
+      "title": "Referee ID",
+      "name": "referee_id",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Referee|RefereeName",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Referee|RefereeName",
+      "label": "string",
+      "row": "2",
+      "title": "Referee Name",
+      "name": "referee_name",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Referee|Address",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Referee|Address",
+      "label": "string",
+      "row": "3",
+      "title": "Address",
+      "name": "referee_address",
+      "required": "N"
+    },
+    {
+      "mmType": "Email",
+      "gid": "T_Referee|Email",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Referee|Email",
+      "label": "string",
+      "row": "4",
+      "title": "Email",
+      "name": "referee_email",
+      "required": "Y"
+    },
+    {
+      "mmType": "Phone",
+      "gid": "T_Referee|ContactNo",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Referee|ContactNo",
+      "label": "integer",
+      "row": "5",
+      "title": "Contact No",
+      "name": "referee_contact_no",
+      "required": "Y"
+    }
+  ],
+  "vendor_vertices": [
+    {
+      "mmType": "",
+      "gid": "T_Vendor",
+      "visible": "",
+      "column": "",
+      "id": "T_Vendor",
+      "label": "object",
+      "row": "",
+      "title": "Vendors",
+      "required": ""
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Vendor|VendorID",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Vendor|VendorID",
+      "label": "integer",
+      "row": "1",
+      "title": "Vendor ID",
+      "name": "vendor_id",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Vendor|VendorName",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Vendor|VendorName",
+      "label": "string",
+      "row": "2",
+      "title": "Vendor Name",
+      "name": "vendor_name",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Vendor|Address",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Vendor|Address",
+      "label": "string",
+      "row": "3",
+      "title": "Address",
+      "name": "vendor_address",
+      "required": "N"
+    },
+    {
+      "mmType": "Email",
+      "gid": "T_Vendor|Email",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Vendor|Email",
+      "label": "string",
+      "row": "4",
+      "title": "Email",
+      "name": "vendor_email",
+      "required": "Y"
+    },
+    {
+      "mmType": "Phone",
+      "gid": "T_Vendor|ContactNo",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Vendor|ContactNo",
+      "label": "integer",
+      "row": "5",
+      "title": "Contact No",
+      "name": "vendor_contact_no",
+      "required": "Y"
+    }
   ]
 }
