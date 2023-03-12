@@ -639,25 +639,13 @@
       "required": "Y"
     },
     {
-      "mmType": "String",
-      "gid": "T_Referee|Address",
-      "visible": "Y",
-      "column": "1",
-      "id": "T_Referee|Address",
-      "label": "string",
-      "row": "3",
-      "title": "Address",
-      "name": "referee_address",
-      "required": "N"
-    },
-    {
       "mmType": "Email",
       "gid": "T_Referee|Email",
       "visible": "Y",
       "column": "1",
       "id": "T_Referee|Email",
       "label": "string",
-      "row": "4",
+      "row": "3",
       "title": "Email",
       "name": "referee_email",
       "required": "Y"
@@ -669,10 +657,22 @@
       "column": "1",
       "id": "T_Referee|ContactNo",
       "label": "integer",
-      "row": "5",
+      "row": "4",
       "title": "Contact No",
       "name": "referee_contact_no",
       "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Referee|Address",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Referee|Address",
+      "label": "string",
+      "row": "5",
+      "title": "Address",
+      "name": "referee_address",
+      "required": "N"
     }
   ],
   "vendor_vertices": [
@@ -711,18 +711,7 @@
       "name": "vendor_name",
       "required": "Y"
     },
-    {
-      "mmType": "String",
-      "gid": "T_Vendor|Address",
-      "visible": "Y",
-      "column": "1",
-      "id": "T_Vendor|Address",
-      "label": "string",
-      "row": "3",
-      "title": "Address",
-      "name": "vendor_address",
-      "required": "N"
-    },
+
     {
       "mmType": "Email",
       "gid": "T_Vendor|Email",
@@ -730,7 +719,7 @@
       "column": "1",
       "id": "T_Vendor|Email",
       "label": "string",
-      "row": "4",
+      "row": "3",
       "title": "Email",
       "name": "vendor_email",
       "required": "Y"
@@ -742,10 +731,22 @@
       "column": "1",
       "id": "T_Vendor|ContactNo",
       "label": "integer",
-      "row": "5",
+      "row": "4",
       "title": "Contact No",
       "name": "vendor_contact_no",
       "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Vendor|Address",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Vendor|Address",
+      "label": "string",
+      "row": "5",
+      "title": "Address",
+      "name": "vendor_address",
+      "required": "N"
     }
   ]
 }
