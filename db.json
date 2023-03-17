@@ -602,6 +602,67 @@
       "required": "Y"
     }
   ],
+  "interviewer_vertices": [
+    {
+      "mmType": "",
+      "gid": "T_Interviewer",
+      "visible": "",
+      "column": "",
+      "id": "T_Interviewer",
+      "label": "object",
+      "row": "",
+      "title": "Interviewers",
+      "required": ""
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Interviewer|UserName",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Interviewer|UserName",
+      "label": "string",
+      "row": "1",
+      "title": "User Name",
+      "name": "username",
+      "required": "Y"
+    },
+    {
+      "mmType": "Email",
+      "gid": "T_Interviewer|Email",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Interviewer|Email",
+      "label": "string",
+      "row": "2",
+      "title": "Email",
+      "name": "email",
+      "required": "Y"
+    },
+    {
+      "mmType": "password",
+      "gid": "T_Interviewer|Password",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Interviewer|Password",
+      "label": "string",
+      "row": "3",
+      "title": "Password",
+      "name": "password",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Interviewer|Role",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Interviewer|Role",
+      "label": "string",
+      "row": "4",
+      "title": "Role",
+      "name": "roles",
+      "required": "Y"
+    }
+  ],
   "referee_vertices": [
     {
       "mmType": "",
