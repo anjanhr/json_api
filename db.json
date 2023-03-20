@@ -490,28 +490,16 @@
       "required": "N"
     },
     {
-      "mmType": "Date",
-      "gid": "T_Candidates|SchedInterview",
+      "mmType": "String",
+      "gid": "T_Candidates|EmpReferral",
       "visible": "Y",
       "column": "2",
-      "id": "T_Candidates|SchedInterview",
+      "id": "T_Candidates|EmpReferral",
       "label": "string",
       "row": "6",
-      "title": "Sched Interview",
-      "name": "can_sched_interview",
-      "required": "N"
-    },
-    {
-      "mmType": "String",
-      "gid": "T_Candidates|EmpRefree",
-      "visible": "Y",
-      "column": "2",
-      "id": "T_Candidates|EmpRefree",
-      "label": "string",
-      "row": "7",
-      "title": "Employee Refree",
+      "title": "Employee Referral",
       "collection": ["Select"],
-      "name": "can_emp_refree",
+      "name": "can_emp_referral",
       "required": "N"
     },
     {
@@ -521,7 +509,7 @@
       "column": "2",
       "id": "T_Candidates|Vendor",
       "label": "string",
-      "row": "8",
+      "row": "7",
       "title": "Supplied Vendor",
       "collection": ["Select"],
       "name": "can_supp_vendor",
