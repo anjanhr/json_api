@@ -497,7 +497,7 @@
       "id": "T_Candidates|EmpReferral",
       "label": "string",
       "row": "6",
-      "title": "Employee Referral",
+      "title": "Referral",
       "collection": ["Select"],
       "name": "can_emp_referral",
       "required": "N"
@@ -510,7 +510,7 @@
       "id": "T_Candidates|Vendor",
       "label": "string",
       "row": "7",
-      "title": "Supplied Vendor",
+      "title": "Vendor",
       "collection": ["Select"],
       "name": "can_supp_vendor",
       "required": "N"
