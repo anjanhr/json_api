@@ -524,7 +524,7 @@
       "label": "string",
       "row": "7",
       "title": "Resume Status",
-      "collection": ["Active", "Hold"],
+      "collection": ["ACTIVE", "HOLD"],
       "name": "can_resume_status",
       "required": "Y"
     },
