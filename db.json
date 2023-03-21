@@ -433,10 +433,10 @@
       "mmType": "String",
       "gid": "T_Candidates|Qualification",
       "visible": "Y",
-      "column": "2",
+      "column": "1",
       "id": "T_Candidates|Qualification",
       "label": "string",
-      "row": "1",
+      "row": "9",
       "title": "Qualification",
       "name": "can_qualification",
       "required": "N"
@@ -448,7 +448,7 @@
       "column": "2",
       "id": "T_Candidates|Percentage",
       "label": "string",
-      "row": "2",
+      "row": "1",
       "title": "Percentage",
       "name": "can_percentage",
       "required": "N"
@@ -460,7 +460,7 @@
       "column": "2",
       "id": "T_Candidates|Address",
       "label": "string",
-      "row": "3",
+      "row": "2",
       "title": "Address",
       "name": "can_address",
       "required": "N"
@@ -472,7 +472,7 @@
       "column": "2",
       "id": "T_Candidates|Resume/CV",
       "label": "string",
-      "row": "4",
+      "row": "3",
       "title": "Resume/CV",
       "name": "can_resume",
       "required": "Y"
@@ -484,7 +484,7 @@
       "column": "2",
       "id": "T_Candidates|CVReceieveOn",
       "label": "string",
-      "row": "5",
+      "row": "4",
       "title": "CV Receieve On",
       "name": "can_cv_rec_on",
       "required": "N"
@@ -496,7 +496,7 @@
       "column": "2",
       "id": "T_Candidates|EmpReferral",
       "label": "string",
-      "row": "6",
+      "row": "5",
       "title": "Referral",
       "collection": ["Select"],
       "name": "can_emp_referral",
@@ -509,11 +509,36 @@
       "column": "2",
       "id": "T_Candidates|Vendor",
       "label": "string",
-      "row": "7",
+      "row": "6",
       "title": "Vendor",
       "collection": ["Select"],
       "name": "can_supp_vendor",
       "required": "N"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Candidates|ResumeStatus",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Candidates|ResumeStatus",
+      "label": "string",
+      "row": "7",
+      "title": "Resume Status",
+      "collection": ["Active", "Hold"],
+      "name": "can_resume_status",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Candidates|Remarks",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Candidates|Remarks",
+      "label": "string",
+      "row": "8",
+      "title": "Remarks",
+      "name": "can_remarks",
+      "required": "Y"
     }
   ],
   "schedule_vertices": [
