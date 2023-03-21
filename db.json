@@ -529,7 +529,7 @@
       "required": "Y"
     },
     {
-      "mmType": "String",
+      "mmType": "textarea",
       "gid": "T_Candidates|Remarks",
       "visible": "Y",
       "column": "2",
