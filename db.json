@@ -798,5 +798,42 @@
       "name": "vendor_address",
       "required": "N"
     }
+  ],
+  "jd_vertices": [
+    {
+      "mmType": "",
+      "gid": "T_Jd",
+      "visible": "",
+      "column": "",
+      "id": "T_Jd",
+      "label": "object",
+      "row": "",
+      "title": "Jds",
+      "required": ""
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Jd|JdTitle",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Jd|JdTitle",
+      "label": "string",
+      "row": "1",
+      "title": "JD Title",
+      "name": "jd_title",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_Jd|JdDescription",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Jd|JdDescription",
+      "label": "string",
+      "row": "2",
+      "title": "JD Description",
+      "name": "jd_description",
+      "required": "Y"
+    }
   ]
 }
