@@ -870,6 +870,7 @@
       "label": "string",
       "row": "2",
       "title": "JD Title",
+      "collection": ["Select"],
       "name": "jd_title",
       "required": "N"
     },
