@@ -835,5 +835,67 @@
       "name": "jd_description",
       "required": "Y"
     }
+  ],
+  "supplier_vertices": [
+    {
+      "mmType": "",
+      "gid": "T_supplier",
+      "visible": "",
+      "column": "",
+      "id": "T_supplier",
+      "label": "object",
+      "row": "",
+      "title": "Supplier",
+      "required": ""
+    },
+    {
+      "mmType": "String",
+      "gid": "T_supplier|Vendor/Referral",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_supplier|Vendor/Referral",
+      "label": "string",
+      "row": "1",
+      "title": "Vendor/Referral",
+      "collection": ["Select"],
+      "name": "supplier",
+      "required": "Y"
+    },
+    {
+      "mmType": "String",
+      "gid": "T_supplier|JdTitle",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_supplier|JdTitle",
+      "label": "string",
+      "row": "2",
+      "title": "JD Title",
+      "name": "jd_title",
+      "required": "N"
+    },
+    {
+      "mmType": "Date",
+      "gid": "T_supplier|From",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_supplier|From",
+      "label": "string",
+      "row": "1",
+      "title": "From",
+      "name": "start_date",
+      "required": "N"
+    },
+    {
+      "mmType": "Date",
+      "gid": "T_supplier|To",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_supplier|To",
+      "label": "string",
+      "row": "2",
+      "title": "To",
+      "name": "end_date",
+      "required": "N"
+    }
   ]
 }
