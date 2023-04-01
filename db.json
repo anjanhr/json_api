@@ -479,13 +479,13 @@
     },
     {
       "mmType": "Date",
-      "gid": "T_Candidates|CVReceieveOn",
+      "gid": "T_Candidates|CVReceievedOn",
       "visible": "Y",
       "column": "2",
-      "id": "T_Candidates|CVReceieveOn",
+      "id": "T_Candidates|CVReceievedOn",
       "label": "string",
       "row": "4",
-      "title": "CV Receieve On",
+      "title": "CV Receieved On",
       "name": "can_cv_rec_on",
       "required": "N"
     },
