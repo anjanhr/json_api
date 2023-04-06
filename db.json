@@ -603,12 +603,12 @@
       "required": "Y"
     },
     {
-      "mmType": "Phone",
+      "mmType": "String",
       "gid": "T_Candidates|ScheduledBy",
       "visible": "Y",
       "column": "1",
       "id": "T_Candidates|ScheduledBy",
-      "label": "integer",
+      "label": "string",
       "row": "4",
       "title": "Scheduled By",
       "name": "scheduled_by",
