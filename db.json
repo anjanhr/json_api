@@ -574,7 +574,7 @@
       "id": "T_Candidates|InterRound",
       "label": "integer",
       "row": "1",
-      "title": "Inter Round",
+      "title": "Interview Round",
       "name": "inter_round",
       "required": "Y"
     },
@@ -625,6 +625,18 @@
       "title": "Interviewer",
       "collection": ["Select"],
       "name": "interviewer",
+      "required": "Y"
+    },
+    {
+      "mmType": "textarea",
+      "gid": "T_Candidates|TextArea",
+      "visible": "Y",
+      "column": "2",
+      "id": "T_Candidates|TextArea",
+      "label": "textarea",
+      "row": "2",
+      "title": "Meeting Link",
+      "name": "meeting_link",
       "required": "Y"
     }
   ],
