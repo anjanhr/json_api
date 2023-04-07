@@ -900,15 +900,15 @@
     },
     {
       "mmType": "String",
-      "gid": "T_supplier|JdTitle",
+      "gid": "T_supplier|JdInfo",
       "visible": "Y",
       "column": "1",
-      "id": "T_supplier|JdTitle",
+      "id": "T_supplier|JdInfo",
       "label": "string",
       "row": "2",
-      "title": "JD Title",
+      "title": "JD",
       "collection": ["Select"],
-      "name": "jd_title",
+      "name": "jd_info",
       "required": "N"
     },
     {
