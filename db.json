@@ -491,15 +491,15 @@
     },
     {
       "mmType": "String",
-      "gid": "T_Candidates|JobTitle",
+      "gid": "T_Candidates|JD",
       "visible": "Y",
       "column": "2",
-      "id": "T_Candidates|JobTitle",
+      "id": "T_Candidates|JD",
       "label": "string",
       "row": "5",
-      "title": "Job Title",
+      "title": "JD",
       "collection": ["Select"],
-      "name": "can_job_title",
+      "name": "can_jd",
       "required": "Y"
     },
     {
@@ -837,27 +837,39 @@
       "required": ""
     },
     {
+      "mmType": "Date",
+      "gid": "T_Jd|JdDate",
+      "visible": "Y",
+      "column": "1",
+      "id": "T_Jd|JdDate",
+      "label": "string",
+      "row": "1",
+      "title": "JD Date",
+      "name": "jd_date",
+      "required": "Y"
+    },
+    {
       "mmType": "String",
       "gid": "T_Jd|JdTitle",
       "visible": "Y",
       "column": "1",
       "id": "T_Jd|JdTitle",
       "label": "string",
-      "row": "1",
+      "row": "2",
       "title": "JD Title",
       "name": "jd_title",
       "required": "Y"
     },
     {
       "mmType": "textarea",
-      "gid": "T_Jd|JdDescription",
+      "gid": "T_Jd|JdSkills",
       "visible": "Y",
-      "column": "1",
-      "id": "T_Jd|JdDescription",
-      "label": "string",
-      "row": "2",
-      "title": "JD Description",
-      "name": "jd_description",
+      "column": "2",
+      "id": "T_Jd|JdSkills",
+      "label": "textarea",
+      "row": "1",
+      "title": "JD Skills",
+      "name": "jd_skills",
       "required": "Y"
     }
   ],
