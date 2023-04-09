@@ -430,12 +430,12 @@
       "required": "N"
     },
     {
-      "mmType": "String",
+      "mmType": "Number",
       "gid": "T_Candidates|Experience",
       "visible": "Y",
       "column": "1",
       "id": "T_Candidates|Experience",
-      "label": "string",
+      "label": "number",
       "row": "9",
       "title": "Experience",
       "name": "can_experience",
