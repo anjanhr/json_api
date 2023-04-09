@@ -467,12 +467,12 @@
       "required": "N"
     },
     {
-      "mmType": "String",
+      "mmType": "Number",
       "gid": "T_Candidates|Marks",
       "visible": "Y",
       "column": "2",
       "id": "T_Candidates|Marks",
-      "label": "string",
+      "label": "number",
       "row": "2",
       "title": "",
       "name": "can_marks",
