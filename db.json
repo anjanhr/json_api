@@ -525,7 +525,7 @@
       "row": "6",
       "title": "Referral",
       "collection": ["Select"],
-      "name": "can_emp_referral",
+      "name": "can_referral",
       "required": "N"
     },
     {
@@ -538,7 +538,7 @@
       "row": "7",
       "title": "Vendor",
       "collection": ["Select"],
-      "name": "can_supp_vendor",
+      "name": "can_vendor",
       "required": "N"
     },
     {
