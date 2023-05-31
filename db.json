@@ -550,7 +550,7 @@
       "label": "string",
       "row": "8",
       "title": "Resume Status",
-      "collection": ["ACTIVE", "HOLD"],
+      "collection": ["ACTIVE", "HOLD", "REJECT"],
       "name": "can_resume_status",
       "required": "Y"
     },
