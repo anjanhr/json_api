@@ -587,7 +587,7 @@
       "title": "Vendor/Referral",
       "collection": ["Select"],
       "name": "supplier",
-      "required": "Y"
+      "required": "N"
     },
     {
       "mmType": "String",
