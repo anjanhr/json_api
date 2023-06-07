@@ -242,7 +242,7 @@
       "row": "9",
       "title": "Remarks",
       "name": "can_remarks",
-      "required": "Y"
+      "required": "N"
     }
   ],
   "schedule_vertices": [
